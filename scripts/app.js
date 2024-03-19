@@ -8,14 +8,6 @@ const timeOfTheDay = document.querySelector('.time')
 const weatherIcon = document.querySelector('.icon img')
 const locationWeather = new Weather()
 
-//city here represents a parameter and when called cityValue represents the city user typed in
-// const updateCityName = async (city) => {
-//     const cityInformation = await getCity(city)
-//     const cityWeather = await getWeather(cityInformation.Key)
-//     return {cityInformation, cityWeather}
-// }
-
-
  //DISPLAY WEATHER INFORMATION
 const updateUI = (data) => {
     const cityInformation = data.cityInformation;
